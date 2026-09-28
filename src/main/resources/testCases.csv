@@ -1,0 +1,15 @@
+testCase,weight,isEV,isCarpool,expectedOutput
+TC1,1,false,false,0.0
+TC3,1200,false,false,0.0
+TC4,1201,false,false,0.0
+TC5,3500,false,false,0.0
+TC6,3501,false,false,0.05
+TC7,1200,true,true,0.0
+TC8,1200,true,false,0.0
+TC9,1200,false,true,0.0
+TC10,1201,true,true,0.15
+TC11,1201,true,false,0.10
+TC12,1201,false,true,0.10
+TC13,3501,true,true,0.25
+TC14,3501,true,false,0.05
+TC15,3501,false,true,0.05
